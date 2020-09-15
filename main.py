@@ -9,7 +9,7 @@ with open('./response.json', 'r', encoding='utf8')as fp:
     college_all = response_json['data']['collegeAll']
     major_all = response_json['data']['majorAll']
     class_all = response_json['data']['classAll']
-
+ 
 # 输入Secrets
 stu_name = input()
 stu_id = input()
